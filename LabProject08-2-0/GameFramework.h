@@ -49,8 +49,8 @@ private:
 	IDXGISwapChain3				*m_pdxgiSwapChain = NULL;
 	ID3D12Device				*m_pd3dDevice = NULL;
 
-	bool						m_bMsaa4xEnable = false;
-	UINT						m_nMsaa4xQualityLevels = 0;
+	bool						m_bMsaa4xEnable = true;
+	UINT						m_nMsaa4xQualityLevels = 3;
 
 	static const UINT			m_nSwapChainBuffers = 2;
 	UINT						m_nSwapChainBufferIndex;
